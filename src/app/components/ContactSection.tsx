@@ -39,8 +39,8 @@ export function ContactSection() {
     {
       icon: Terminal,
       label: 'Portfolio',
-      value: 'souravtiwari.dev',
-      href: 'https://souravtiwari.dev',
+      value: 'sourav-portfolio-9utk.onrender.com',
+      href: 'https://sourav-portfolio-9utk.onrender.com/',
     },
   ];
 

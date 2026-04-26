@@ -166,7 +166,7 @@ const COMMANDS: Record<string, { lines: { text: string; color: string }[] }> = {
       { text: '  💼 LinkedIn : linkedin.com/in/sourav-tiwari-328bb1277', color: 'text-blue-400' },
       { text: '  🐙 GitHub   : github.com/saurav688', color: 'text-white' },
       { text: '  💻 LeetCode : leetcode.com/u/Saurav_688', color: 'text-orange-400' },
-      { text: '  🌐 Portfolio: souravtiwari.dev', color: 'text-purple-400' },
+      { text: '  🌐 Portfolio: sourav-portfolio-9utk.onrender.com', color: 'text-purple-400' },
     ],
   },
   joke: {
