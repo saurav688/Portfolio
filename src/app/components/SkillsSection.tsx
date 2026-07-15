@@ -5,7 +5,6 @@ import {
   Layout,
   Database,
   Wrench,
-  Cloud,
   Sparkles,
   Brain,
   Terminal,
@@ -16,46 +15,40 @@ export function SkillsSection() {
 
   const skillCategories = [
     {
-      title: 'Programming Languages',
+      title: 'Languages',
       icon: Code2,
       color: 'from-blue-500 to-cyan-500',
-      skills: ['C', 'C++', 'Java', 'JavaScript', 'Python'],
+      skills: ['Java', 'C', 'C++', 'Python', 'SQL'],
     },
     {
-      title: 'Web Development',
+      title: 'Development',
       icon: Layout,
       color: 'from-indigo-500 to-purple-500',
-      skills: ['HTML', 'CSS', 'React.js', 'Node.js', 'Express.js', 'Django', 'Spring Boot'],
+      skills: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'RESTful API', 'JWT Auth'],
     },
     {
-      title: 'AI & Machine Learning',
+      title: 'ML & AI',
       icon: Brain,
       color: 'from-violet-500 to-fuchsia-500',
-      skills: ['Machine Learning', 'AI Systems', 'Google Gemini AI', 'Data Analysis'],
+      skills: ['Machine Learning', 'LLM Integration', 'Ollama', 'Prompt Engineering', 'AI Agents', 'Google Gemini AI'],
     },
     {
       title: 'Databases',
       icon: Database,
       color: 'from-purple-500 to-pink-500',
-      skills: ['MySQL', 'PostgreSQL', 'MongoDB'],
+      skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'Database Design', 'Query Optimization'],
     },
     {
-      title: 'Tools & Technologies',
+      title: 'Tools & Platforms',
       icon: Wrench,
       color: 'from-pink-500 to-rose-500',
-      skills: ['Git', 'GitHub', 'REST APIs', 'JWT', 'n8n', 'Postman'],
+      skills: ['Git', 'GitHub', 'Postman', 'n8n', 'AWS', 'Google Cloud', 'Linux', 'Vercel', 'Render'],
     },
     {
-      title: 'UI/UX',
-      icon: Cloud,
-      color: 'from-orange-500 to-red-500',
-      skills: ['Figma', 'Canva'],
-    },
-    {
-      title: 'Other Skills',
+      title: 'Core Skills',
       icon: Sparkles,
       color: 'from-green-500 to-emerald-500',
-      skills: ['Data Structures & Algorithms', 'OOP', 'DBMS', 'OS', 'JSON', 'Responsive Design'],
+      skills: ['DSA', 'OOP', 'DBMS', 'OS', 'Computer Networks', 'SDLC', 'Agile/Scrum', 'Software Testing'],
     },
   ];
 

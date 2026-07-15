@@ -61,18 +61,15 @@ export function AboutSection() {
               className="space-y-4"
             >
               <p className="text-sm sm:text-lg text-cyan-400 leading-relaxed">
-                <span className="text-yellow-400">→</span> Hello! I'm <span className="text-white font-semibold">Sourav Tiwari</span>, a passionate Computer Science student 
-                specializing in AI and Full Stack Development.
+                <span className="text-yellow-400">→</span> Hello! I'm <span className="text-white font-semibold">Sourav Tiwari</span>, a B.Tech Computer Science student (2027) with hands-on experience building scalable full-stack web applications using the MERN stack and AI/ML systems in Python.
               </p>
               
               <p className="text-sm sm:text-lg text-cyan-400 leading-relaxed">
-                <span className="text-yellow-400">→</span> Originally from <span className="text-white">Bihar</span>, 
-                I'm currently pursuing my <span className="text-white font-semibold">B.Tech in CSE & IT</span> at Sagar Institute of Research and Technology, Bhopal.
+                <span className="text-yellow-400">→</span> Pursuing <span className="text-white font-semibold">B.Tech in CSE & IT</span> at Sagar Institute of Research and Technology, Bhopal. Skilled at translating business requirements into clean, well-documented code and delivering within Agile sprint cycles.
               </p>
 
               <p className="text-sm sm:text-lg text-cyan-400 leading-relaxed">
-                <span className="text-yellow-400">→</span> With a strong foundation in algorithms, data structures, and modern 
-                web technologies, I love building intelligent systems that solve real-world problems.
+                <span className="text-yellow-400">→</span> <span className="text-white font-semibold">SIH 2025 Finalist</span> and <span className="text-white font-semibold">Microsoft Learn Student Ambassador</span> — passionate about building intelligent systems that solve real-world problems.
               </p>
 
               <div className="flex items-center gap-3 text-green-400 mt-6">
@@ -109,7 +106,7 @@ export function AboutSection() {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-yellow-400">CPI:</span>
-                    <span className="text-green-400 font-bold">8.02</span>
+                    <span className="text-green-400 font-bold">8.13</span>
                   </div>
                 </div>
               </div>
@@ -117,9 +114,9 @@ export function AboutSection() {
               <div className="grid sm:grid-cols-2 gap-4">
                 <div className="bg-gray-800 border border-green-500/30 rounded-lg p-6 hover:border-green-500 transition-colors">
                   <Award size={24} className="mb-3 text-green-400" />
-                  <p className="text-3xl font-bold mb-1 text-green-400">97%</p>
+                  <p className="text-3xl font-bold mb-1 text-green-400">96.99%</p>
                   <p className="text-sm text-cyan-400">10th Grade</p>
-                  <p className="text-xs text-gray-500">Punjab</p>
+                  <p className="text-xs text-gray-500">St. Pius Convent Sr. Sec. School, Punjab</p>
                 </div>
                 <div className="bg-gray-800 border border-green-500/30 rounded-lg p-6 hover:border-green-500 transition-colors">
                   <Award size={24} className="mb-3 text-green-400" />
@@ -129,28 +126,42 @@ export function AboutSection() {
                 </div>
               </div>
 
-              {/* Internship */}
+              {/* Internships */}
               <div className="bg-gray-800 border border-green-500/30 rounded-lg p-6 hover:border-green-500 transition-colors">
                 <div className="flex items-center gap-4 mb-4">
                   <div className="p-2 bg-green-500/10 rounded">
                     <Briefcase className="text-green-400" size={24} />
                   </div>
                   <div>
-                    <h3 className="font-bold text-xl text-green-400">## Internship</h3>
-                    <p className="text-cyan-400 text-sm">ML & Backend Developer Intern – Coding Arena</p>
+                    <h3 className="font-bold text-xl text-green-400">## Internships</h3>
+                    <p className="text-cyan-400 text-sm">Coding Arena</p>
                   </div>
                 </div>
-                <div className="space-y-2 text-cyan-400 text-sm mb-3">
-                  <div className="flex justify-between">
-                    <span className="text-yellow-400">Duration:</span>
-                    <span>Mar 2026 – Present</span>
+
+                {/* Internship 1 */}
+                <div className="mb-5">
+                  <div className="flex flex-wrap justify-between items-center mb-2 gap-1">
+                    <span className="text-green-400 font-semibold text-sm">Full Stack Development Intern</span>
+                    <span className="text-gray-500 text-xs">Jul 2026 – Present</span>
                   </div>
+                  <ul className="space-y-1 mb-2">
+                    <li className="flex items-start gap-2 text-gray-400 text-sm"><span className="text-green-400 flex-shrink-0">→</span><span>Developed responsive full-stack apps with React.js, Node.js, Express.js & MongoDB — RESTful APIs, JWT auth, CRUD functionality</span></li>
+                    <li className="flex items-start gap-2 text-gray-400 text-sm"><span className="text-green-400 flex-shrink-0">→</span><span>Followed SDLC — testing, debugging, clean code with Git, Agile sprint delivery</span></li>
+                  </ul>
+                  <p className="text-xs text-gray-600">Stack: React.js · Node.js · Express.js · MongoDB · JWT · REST APIs · Vercel · Render</p>
                 </div>
-                <ul className="space-y-1">
-                  <li className="flex items-start gap-2 text-gray-400 text-sm"><span className="text-green-400">→</span><span>Designed and managed relational and non-relational databases with optimized SQL queries</span></li>
-                  <li className="flex items-start gap-2 text-gray-400 text-sm"><span className="text-green-400">→</span><span>Developed and integrated backend APIs ensuring data consistency, integrity, and security</span></li>
-                  <li className="flex items-start gap-2 text-gray-400 text-sm"><span className="text-green-400">→</span><span>Collaborated with the team to design and improve database schemas</span></li>
-                </ul>
+
+                <div className="border-t border-green-500/10 pt-4">
+                  <div className="flex flex-wrap justify-between items-center mb-2 gap-1">
+                    <span className="text-green-400 font-semibold text-sm">ML & Backend Developer Intern</span>
+                    <span className="text-gray-500 text-xs">Mar 2026 – Jun 2026</span>
+                  </div>
+                  <ul className="space-y-1 mb-2">
+                    <li className="flex items-start gap-2 text-gray-400 text-sm"><span className="text-green-400 flex-shrink-0">→</span><span>Architected 15+ REST API endpoints with Node.js & Express.js, reducing avg response time by 25%</span></li>
+                    <li className="flex items-start gap-2 text-gray-400 text-sm"><span className="text-green-400 flex-shrink-0">→</span><span>Developed ML models in Python, improving prediction accuracy by 20% across 5 classification pipelines; automated workflows saving 8 hrs/week</span></li>
+                  </ul>
+                  <p className="text-xs text-gray-600">Stack: Node.js · Express.js · React.js · Python · Machine Learning · MongoDB · Agile</p>
+                </div>
               </div>
             </motion.div>
           </div>

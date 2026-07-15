@@ -70,14 +70,13 @@ export function HeroSection() {
                 </div>
 
                 <p className="text-cyan-400 text-sm sm:text-lg mb-2">
-                  <span className="text-yellow-400">Role:</span> AI & Full Stack Developer
+                  <span className="text-yellow-400">Role:</span> Full Stack & AI/ML Developer
                 </p>
                 <p className="text-cyan-400 text-sm sm:text-lg mb-2">
-                  <span className="text-yellow-400">Status:</span> Building Intelligent & Scalable Systems
+                  <span className="text-yellow-400">Status:</span> Building Scalable MERN Apps & AI Systems
                 </p>
                 <p className="text-gray-400 text-sm sm:text-base mb-6">
-                  <span className="text-yellow-400">Description:</span> Computer Science student passionate about
-                  AI solutions and web applications
+                  <span className="text-yellow-400">Description:</span> B.Tech CSE student (2027) — SIH 2025 Finalist & Microsoft Learn Student Ambassador
                 </p>
 
                 <div className="flex flex-wrap gap-3 mb-6">

@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { useInView } from '../hooks/useInView';
-import { Github, ExternalLink, Hospital, Shield, Terminal } from 'lucide-react';
+import { Github, ExternalLink, Hospital, Shield, Terminal, Award } from 'lucide-react';
 
 export function ProjectsSection() {
   const [ref, isInView] = useInView({ threshold: 0.2 });
@@ -8,42 +8,53 @@ export function ProjectsSection() {
   const projects = [
     {
       title: 'Hospital Management System',
-      description: 'Developed a responsive web application to manage hospital data, handling 100+ records (patients, doctors, rooms) with real-time updates, improving data access efficiency by ~30%.',
+      description: 'Analyzed client requirements and developed a responsive full-stack web app managing 100+ hospital records (patients, doctors, rooms) with real-time updates, improving data access efficiency by ~30%.',
       icon: Hospital,
-      gradient: 'from-purple-500 to-pink-600',
       features: [
+        'Documented system design, API specs, and test cases',
         'Handles 100+ patient, doctor, and room records',
-        'Real-time updates improving data access efficiency by ~30%',
-        'Doctor scheduling and room allocation',
-        'React-based dashboard with API integration',
+        'Real-time updates — ~30% improved data access efficiency',
+        'JWT Authentication & RESTful API architecture',
       ],
-      tech: ['React.js', 'REST API', 'Dashboard UI'],
+      tech: ['Node.js', 'Express.js', 'React', 'MongoDB', 'TypeScript', 'JWT', 'RESTful API'],
       github: 'https://github.com/saurav688/HEALTHLOCK-Hospital-Management-System',
       live: 'https://github.com/saurav688/HEALTHLOCK-Hospital-Management-System',
     },
     {
       title: 'AI/ML Crypto Primitive Identification in Firmware',
-      description: 'Designed an AI/ML-based system to identify cryptographic primitives in firmware, improving detection accuracy and reducing manual analysis effort by ~40%.',
+      description: 'Built an AI/ML pipeline to identify cryptographic primitives in firmware binaries — performed root cause analysis on false positives, improving detection accuracy and reducing manual analysis by ~40%.',
       icon: Shield,
-      gradient: 'from-cyan-500 to-blue-600',
       features: [
-        'Identifies cryptographic primitives in firmware automatically',
+        'Root cause analysis on false positives, documented performance requirements',
         'Reduces manual analysis effort by ~40%',
-        'Works across architectures like ARM, MIPS, and AVR',
-        'Uses machine learning with static and dynamic analysis',
+        'Evaluated firmware modules; prepared technical reports for stakeholders',
+        'Works across ARM, MIPS, and AVR architectures',
       ],
-      tech: ['AI/ML', 'Python', 'Firmware Analysis', 'Cryptography', 'Security'],
+      tech: ['Python', 'PyTorch', 'NumPy', 'NetworkX', 'Flask', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/saurav688/SIH-2025-ML-CRYPTO-PRIMITIVE-IDENTIFICATION-FIRMWARE-DETECTION',
       live: 'https://github.com/saurav688/SIH-2025-ML-CRYPTO-PRIMITIVE-IDENTIFICATION-FIRMWARE-DETECTION',
     },
     {
+      title: 'CertifiProof – AI-Powered Certificate Validation Platform',
+      description: 'Built an AI-powered certificate authenticity validator using EfficientNet-B4 with ELA forensic analysis to detect tampered image regions — achieved automated fraud detection with GradCAM visual explanations.',
+      icon: Award,
+      features: [
+        'EfficientNet-B4 (6-channel RGB+ELA) model with GradCAM visual explanations',
+        'Tesseract OCR + fuzzy-matched against 50 Indian universities (NAAC)',
+        'phi3/llama3 via Ollama for LLM-based forensic reasoning',
+        'Downloadable PDF reports + email delivery via Gmail SMTP with JWT auth',
+      ],
+      tech: ['Python', 'EfficientNet-B4', 'Tesseract OCR', 'Ollama', 'GradCAM', 'JWT', 'Flask', 'Gmail SMTP'],
+      github: 'https://github.com/saurav688',
+      live: 'https://github.com/saurav688',
+    },
+    {
       title: 'Terminal-Based Command Line Interface',
-      description: 'A powerful terminal-based CLI tool for managing system configurations and automating tasks.',
+      description: 'A powerful terminal-based CLI tool for managing system configurations and automating tasks across multiple operating systems.',
       icon: Terminal,
-      gradient: 'from-green-500 to-teal-600',
       features: [
         'Command-line interface for system management',
-        'Automates repetitive tasks',
+        'Automates repetitive tasks and workflows',
         'Configures system settings efficiently',
         'Supports multiple operating systems',
       ],
