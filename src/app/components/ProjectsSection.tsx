@@ -45,8 +45,8 @@ export function ProjectsSection() {
         'Downloadable PDF reports + email delivery via Gmail SMTP with JWT auth',
       ],
       tech: ['Python', 'EfficientNet-B4', 'Tesseract OCR', 'Ollama', 'GradCAM', 'JWT', 'Flask', 'Gmail SMTP'],
-      github: 'https://github.com/saurav688',
-      live: 'https://github.com/saurav688',
+      github: 'https://github.com/saurav688/AI-BASED-CERTIFICATE-VALIDATOR',
+      live: 'https://github.com/saurav688/AI-BASED-CERTIFICATE-VALIDATOR',
     },
     {
       title: 'Terminal-Based Command Line Interface',

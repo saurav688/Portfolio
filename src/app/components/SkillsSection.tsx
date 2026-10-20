@@ -24,7 +24,7 @@ export function SkillsSection() {
       title: 'Development',
       icon: Layout,
       color: 'from-indigo-500 to-purple-500',
-      skills: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'RESTful API', 'JWT Auth'],
+      skills: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'Fast API', 'RESTful API', 'JWT Auth'],
     },
     {
       title: 'ML & AI',
@@ -42,7 +42,7 @@ export function SkillsSection() {
       title: 'Tools & Platforms',
       icon: Wrench,
       color: 'from-pink-500 to-rose-500',
-      skills: ['Git', 'GitHub', 'Postman', 'n8n', 'AWS', 'Google Cloud', 'Linux', 'Vercel', 'Render'],
+      skills: ['Git', 'GitHub', 'Postman', 'Docker', 'AWS', 'Google Cloud', 'Linux', 'Vercel', 'Render'],
     },
     {
       title: 'Core Skills',

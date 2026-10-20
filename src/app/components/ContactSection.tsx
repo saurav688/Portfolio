@@ -1,11 +1,17 @@
 import { motion } from 'motion/react';
 import { useInView } from '../hooks/useInView';
-import { Mail, Phone, Linkedin, Github, Code, Terminal } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, Code, Terminal, MapPin } from 'lucide-react';
 
 export function ContactSection() {
   const [ref, isInView] = useInView({ threshold: 0.2 });
 
   const contactInfo = [
+    {
+      icon: MapPin,
+      label: 'Location',
+      value: 'Bhopal, Madhya Pradesh',
+      href: '#',
+    },
     {
       icon: Phone,
       label: 'Phone',

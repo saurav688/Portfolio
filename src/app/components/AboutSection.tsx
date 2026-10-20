@@ -75,7 +75,7 @@ export function AboutSection() {
               <div className="flex items-center gap-3 text-green-400 mt-6">
                 <MapPin size={18} />
                 <span className="text-sm sm:text-lg">
-                  <span className="text-gray-500">location:</span> Bihar → Bhopal, Madhya Pradesh
+                  <span className="text-gray-500">location:</span> Bhopal, Madhya Pradesh
                 </span>
               </div>
             </motion.div>
@@ -106,7 +106,11 @@ export function AboutSection() {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-yellow-400">CPI:</span>
-                    <span className="text-green-400 font-bold">8.13</span>
+                    <span className="text-green-400 font-bold">8.20/10.00</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-yellow-400">Coursework:</span>
+                    <span className="text-xs">DSA, OOP, DBMS, OS, Networks</span>
                   </div>
                 </div>
               </div>
@@ -134,16 +138,31 @@ export function AboutSection() {
                   </div>
                   <div>
                     <h3 className="font-bold text-xl text-green-400">## Internships</h3>
-                    <p className="text-cyan-400 text-sm">Coding Arena</p>
+                    <p className="text-cyan-400 text-sm">Recent Work Experience</p>
                   </div>
                 </div>
 
-                {/* Internship 1 */}
+                {/* Internship 1 - Government */}
                 <div className="mb-5">
                   <div className="flex flex-wrap justify-between items-center mb-2 gap-1">
-                    <span className="text-green-400 font-semibold text-sm">Full Stack Development Intern</span>
-                    <span className="text-gray-500 text-xs">Jul 2026 – Present</span>
+                    <span className="text-green-400 font-semibold text-sm">AI/ML and Software Development Intern</span>
+                    <span className="text-gray-500 text-xs">Sept 2026 – Present</span>
                   </div>
+                  <p className="text-yellow-400 text-xs mb-2">Government Of India Organisation | ₹30,000/month</p>
+                  <ul className="space-y-1 mb-2">
+                    <li className="flex items-start gap-2 text-gray-400 text-sm"><span className="text-green-400 flex-shrink-0">→</span><span>Contributing to software development, debugging, testing, and backend-oriented technical tasks</span></li>
+                    <li className="flex items-start gap-2 text-gray-400 text-sm"><span className="text-green-400 flex-shrink-0">→</span><span>Working with development tools, databases, APIs, and secure software engineering practices</span></li>
+                  </ul>
+                  <p className="text-xs text-gray-600">Stack: React.js · Python · AI/ML · PostgreSQL · Ubuntu · Linux · Fast API · Docker . Computer Vision </p>
+                </div>
+
+                {/* Internship 2 - Coding Arena */}
+                <div className="border-t border-green-500/10 pt-4 mb-5">
+                  <div className="flex flex-wrap justify-between items-center mb-2 gap-1">
+                    <span className="text-green-400 font-semibold text-sm">Full Stack Development Intern</span>
+                    <span className="text-gray-500 text-xs">Jul 2026 – Sep 2026</span>
+                  </div>
+                  <p className="text-yellow-400 text-xs mb-2">Coding Arena</p>
                   <ul className="space-y-1 mb-2">
                     <li className="flex items-start gap-2 text-gray-400 text-sm"><span className="text-green-400 flex-shrink-0">→</span><span>Developed responsive full-stack apps with React.js, Node.js, Express.js & MongoDB — RESTful APIs, JWT auth, CRUD functionality</span></li>
                     <li className="flex items-start gap-2 text-gray-400 text-sm"><span className="text-green-400 flex-shrink-0">→</span><span>Followed SDLC — testing, debugging, clean code with Git, Agile sprint delivery</span></li>
@@ -156,11 +175,12 @@ export function AboutSection() {
                     <span className="text-green-400 font-semibold text-sm">ML & Backend Developer Intern</span>
                     <span className="text-gray-500 text-xs">Mar 2026 – Jun 2026</span>
                   </div>
+                  <p className="text-yellow-400 text-xs mb-2">Coding Arena</p>
                   <ul className="space-y-1 mb-2">
-                    <li className="flex items-start gap-2 text-gray-400 text-sm"><span className="text-green-400 flex-shrink-0">→</span><span>Architected 15+ REST API endpoints with Node.js & Express.js, reducing avg response time by 25%</span></li>
-                    <li className="flex items-start gap-2 text-gray-400 text-sm"><span className="text-green-400 flex-shrink-0">→</span><span>Developed ML models in Python, improving prediction accuracy by 20% across 5 classification pipelines; automated workflows saving 8 hrs/week</span></li>
+                    <li className="flex items-start gap-2 text-gray-400 text-sm"><span className="text-green-400 flex-shrink-0">→</span><span>Designed and implemented 15+ REST API endpoints using Node.js and Express.js, reducing average API response time by 25%</span></li>
+                    <li className="flex items-start gap-2 text-gray-400 text-sm"><span className="text-green-400 flex-shrink-0">→</span><span>Developed and optimized machine learning models in Python, improving prediction accuracy by 20% across 5 classification pipelines while automating data workflows to save 8 hours per week</span></li>
                   </ul>
-                  <p className="text-xs text-gray-600">Stack: Node.js · Express.js · React.js · Python · Machine Learning · MongoDB · Agile</p>
+                  <p className="text-xs text-gray-600">Stack: Node.js · Express.js · React.js · Python · Machine Learning · FastApi .  MongoDB · Agile</p>
                 </div>
               </div>
             </motion.div>

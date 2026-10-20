@@ -76,7 +76,7 @@ export function HeroSection() {
                   <span className="text-yellow-400">Status:</span> Building Scalable MERN Apps & AI Systems
                 </p>
                 <p className="text-gray-400 text-sm sm:text-base mb-6">
-                  <span className="text-yellow-400">Description:</span> B.Tech CSE student (2027) — SIH 2025 Finalist & Microsoft Learn Student Ambassador
+                  <span className="text-yellow-400">Description:</span> B.Tech CSE & IT student (2027) | SIH 2025 Finalist | Microsoft Learn Student Ambassador | Software Development & AI/ML Intern @ Govt. of India
                 </p>
 
                 <div className="flex flex-wrap gap-3 mb-6">
