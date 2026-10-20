@@ -160,7 +160,7 @@ export function AboutSection() {
                 <div className="border-t border-green-500/10 pt-4 mb-5">
                   <div className="flex flex-wrap justify-between items-center mb-2 gap-1">
                     <span className="text-green-400 font-semibold text-sm">Full Stack Development Intern</span>
-                    <span className="text-gray-500 text-xs">Jul 2026 – Sep 2026</span>
+                    <span className="text-gray-500 text-xs">Jul 2026 – Sept 2026</span>
                   </div>
                   <p className="text-yellow-400 text-xs mb-2">Coding Arena</p>
                   <ul className="space-y-1 mb-2">
